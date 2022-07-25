@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 
-module load hpctoolkit/2022.01
 
 gcc -o seqSumRand seqSumRand.c
 
