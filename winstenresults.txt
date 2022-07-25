@@ -1,0 +1,13 @@
+# started on Mon Jul 25 12:06:39 2022
+
+
+ Performance counter stats for './seqSum 1000000000':
+
+       27834131882      instructions:u            #    0.47  insn per cycle                                              (40.04%)
+       58925414658      cycles:u                                                      (60.05%)
+            256674      LLC-load-misses                                               (80.04%)
+          44198202      L1-dcache-load-misses                                         (80.04%)
+          94862018      pm_l2_ld_miss                                                 (19.97%)
+
+      17.802597072 seconds time elapsed
+
