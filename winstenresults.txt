@@ -1,13 +1,156 @@
-# started on Mon Jul 25 12:06:39 2022
+# started on Mon Jul 25 13:56:05 2022
 
 
- Performance counter stats for './seqSum 1000000000':
+ Performance counter stats for './seqSum 1000000000 1':
 
-       27834131882      instructions:u            #    0.47  insn per cycle                                              (40.04%)
-       58925414658      cycles:u                                                      (60.05%)
-            256674      LLC-load-misses                                               (80.04%)
-          44198202      L1-dcache-load-misses                                         (80.04%)
-          94862018      pm_l2_ld_miss                                                 (19.97%)
+       28080464643      instructions:u            #    0.50  insn per cycle                                              (40.01%)
+       55880034109      cycles:u                                                      (60.00%)
+            341584      LLC-load-misses                                               (80.00%)
+          44439238      L1-dcache-load-misses                                         (80.00%)
+          96637448      pm_l2_ld_miss                                                 (20.00%)
 
-      17.802597072 seconds time elapsed
+      16.911416462 seconds time elapsed
+
+# started on Mon Jul 25 13:56:23 2022
+
+
+ Performance counter stats for './seqSum 1000000000 1':
+
+       27896503266      instructions:u            #    0.50  insn per cycle                                              (40.03%)
+       55575854635      cycles:u                                                      (60.04%)
+            316061      LLC-load-misses                                               (80.02%)
+          44580166      L1-dcache-load-misses                                         (80.02%)
+          95333440      pm_l2_ld_miss                                                 (19.99%)
+
+      16.765803316 seconds time elapsed
+
+# started on Mon Jul 25 13:56:41 2022
+
+
+ Performance counter stats for './seqSum 1000000000 1':
+
+       27935275931      instructions:u            #    0.50  insn per cycle                                              (40.00%)
+       55505628868      cycles:u                                                      (60.01%)
+            312710      LLC-load-misses                                               (80.00%)
+          44281877      L1-dcache-load-misses                                         (80.00%)
+          95816695      pm_l2_ld_miss                                                 (20.00%)
+
+      16.753796926 seconds time elapsed
+
+# started on Mon Jul 25 13:56:59 2022
+
+
+ Performance counter stats for './seqSum 1000000000 2':
+
+       42956995225      instructions:u            #    0.55  insn per cycle                                              (40.02%)
+       78066814382      cycles:u                                                      (60.03%)
+            434251      LLC-load-misses                                               (80.02%)
+          44612135      L1-dcache-load-misses                                         (80.03%)
+          93682979      pm_l2_ld_miss                                                 (19.98%)
+
+      23.332355500 seconds time elapsed
+
+# started on Mon Jul 25 13:57:23 2022
+
+
+ Performance counter stats for './seqSum 1000000000 2':
+
+       42880056112      instructions:u            #    0.55  insn per cycle                                              (40.02%)
+       78312616102      cycles:u                                                      (60.03%)
+            486799      LLC-load-misses                                               (80.03%)
+          44209277      L1-dcache-load-misses                                         (80.03%)
+          91596246      pm_l2_ld_miss                                                 (19.97%)
+
+      23.388943788 seconds time elapsed
+
+# started on Mon Jul 25 13:57:48 2022
+
+
+ Performance counter stats for './seqSum 1000000000 2':
+
+       42990025215      instructions:u            #    0.55  insn per cycle                                              (40.01%)
+       78049680279      cycles:u                                                      (60.01%)
+            444444      LLC-load-misses                                               (80.01%)
+          44365990      L1-dcache-load-misses                                         (80.01%)
+          95039109      pm_l2_ld_miss                                                 (20.00%)
+
+      23.307615395 seconds time elapsed
+
+# started on Mon Jul 25 13:58:12 2022
+
+
+ Performance counter stats for './seqSum 1000000000 3':
+
+       57960270459      instructions:u            #    0.57  insn per cycle                                              (40.00%)
+      101071147165      cycles:u                                                      (60.02%)
+            492370      LLC-load-misses                                               (80.01%)
+          44779895      L1-dcache-load-misses                                         (80.02%)
+          93721533      pm_l2_ld_miss                                                 (19.98%)
+
+      30.025816087 seconds time elapsed
+
+# started on Mon Jul 25 13:58:43 2022
+
+
+ Performance counter stats for './seqSum 1000000000 3':
+
+       57823391002      instructions:u            #    0.57  insn per cycle                                              (40.00%)
+      101299961763      cycles:u                                                      (60.02%)
+            472720      LLC-load-misses                                               (80.02%)
+          45323322      L1-dcache-load-misses                                         (80.02%)
+          93617637      pm_l2_ld_miss                                                 (19.99%)
+
+      30.081253214 seconds time elapsed
+
+# started on Mon Jul 25 13:59:14 2022
+
+
+ Performance counter stats for './seqSum 1000000000 3':
+
+       58012536258      instructions:u            #    0.57  insn per cycle                                              (40.02%)
+      101062584678      cycles:u                                                      (60.02%)
+            581416      LLC-load-misses                                               (80.02%)
+          46081994      L1-dcache-load-misses                                         (80.02%)
+          95053868      pm_l2_ld_miss                                                 (19.98%)
+
+      30.036108652 seconds time elapsed
+
+# started on Mon Jul 25 13:59:45 2022
+
+
+ Performance counter stats for './seqSum 1000000000 10':
+
+      162987729808      instructions:u            #    0.63  insn per cycle                                              (40.01%)
+      259272796239      cycles:u                                                      (60.01%)
+           1515945      LLC-load-misses                                               (80.01%)
+          53055792      L1-dcache-load-misses                                         (80.01%)
+          97456903      pm_l2_ld_miss                                                 (19.99%)
+
+      76.136381305 seconds time elapsed
+
+# started on Mon Jul 25 14:01:02 2022
+
+
+ Performance counter stats for './seqSum 1000000000 10':
+
+      162982219413      instructions:u            #    0.63  insn per cycle                                              (39.99%)
+      259644340783      cycles:u                                                      (59.99%)
+           1336198      LLC-load-misses                                               (80.00%)
+          52002456      L1-dcache-load-misses                                         (80.01%)
+          99402327      pm_l2_ld_miss                                                 (19.99%)
+
+      76.192661685 seconds time elapsed
+
+# started on Mon Jul 25 14:02:20 2022
+
+
+ Performance counter stats for './seqSum 1000000000 10':
+
+      163051382807      instructions:u            #    0.63  insn per cycle                                              (40.00%)
+      259437904623      cycles:u                                                      (60.00%)
+           1564950      LLC-load-misses                                               (80.00%)
+          53370516      L1-dcache-load-misses                                         (80.00%)
+         101954129      pm_l2_ld_miss                                                 (20.00%)
+
+      76.150661079 seconds time elapsed
 
