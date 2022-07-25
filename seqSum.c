@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
         long long total = 0;
 
         for (i = 0; i < arraySize; i++)
-                total = total + a[rand() % arraySize];
+                total = total + a[i];
         gettimeofday(&stopTime, NULL);
 
         printf("%lld\n", total);
