@@ -10,9 +10,10 @@ int main(int argc, char **argv) {
         double elapsed;
 
         long arraySize = atol(argv[1]);
+        int reps = atoi(argv[2]);
 
         long *a = (long *) malloc (sizeof(long) * arraySize);
-        long i;
+        long i,j;
 
         for (i = 0; i < arraySize; i++)
                 a[i] = i;
@@ -20,7 +21,7 @@ int main(int argc, char **argv) {
 
         gettimeofday(&startTime, NULL);
         long long total = 0;
-
+        for (j = 0; j < reps; j++)
         for (i = 0; i < arraySize; i++)
                 total = total + a[i];
         gettimeofday(&stopTime, NULL);
